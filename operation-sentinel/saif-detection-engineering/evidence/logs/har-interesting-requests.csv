@@ -1,0 +1,22 @@
+entry,time_utc,method,url,status,mimeType,request_body_sample
+88,2026-06-24T12:52:56.023Z,GET,/ftp,200,text/html,
+90,2026-06-24T12:52:58.751Z,GET,/ftp/acquisitions.md,200,text/markdown,
+93,2026-06-24T12:53:05.479Z,GET,/ftp/announcement_encrypted.md,200,text/markdown,
+96,2026-06-24T12:53:12.101Z,GET,/ftp/legal.md,200,text/markdown,
+99,2026-06-24T12:53:15.764Z,GET,/ftp/suspicious_errors.yml,403,text/html,
+102,2026-06-24T12:53:23.622Z,GET,/ftp/quarantine,200,text/html,
+105,2026-06-24T12:53:38.900Z,GET,/api,500,text/html,
+109,2026-06-24T12:53:55.493Z,GET,/rest,500,text/html,
+197,2026-06-24T12:54:09.830Z,GET,/rest/continue-code,200,application/json,
+211,2026-06-24T12:55:01.475Z,POST,/rest/user/login,401,text/html,"{""email"":""ssa7356@g.rit.edu"",""password"":""1""}"
+214,2026-06-24T12:55:03.238Z,POST,/rest/user/login,401,text/html,"{""email"":""ssa7356@g.rit.edu"",""password"":""2""}"
+217,2026-06-24T12:55:03.392Z,POST,/rest/user/login,401,text/html,"{""email"":""ssa7356@g.rit.edu"",""password"":""2""}"
+220,2026-06-24T12:55:04.815Z,POST,/rest/user/login,401,text/html,"{""email"":""ssa7356@g.rit.edu"",""password"":""3""}"
+223,2026-06-24T12:55:05.390Z,POST,/rest/user/login,401,text/html,"{""email"":""ssa7356@g.rit.edu"",""password"":""3""}"
+226,2026-06-24T12:55:06.175Z,POST,/rest/user/login,401,text/html,"{""email"":""ssa7356@g.rit.edu"",""password"":""4""}"
+229,2026-06-24T12:55:06.887Z,POST,/rest/user/login,401,text/html,"{""email"":""ssa7356@g.rit.edu"",""password"":""5""}"
+232,2026-06-24T12:55:07.838Z,POST,/rest/user/login,401,text/html,"{""email"":""ssa7356@g.rit.edu"",""password"":""6""}"
+235,2026-06-24T12:55:26.955Z,POST,/rest/user/login,200,application/json,"{""email"":""' OR 1=1--"",""password"":""test""}"
+237,2026-06-24T12:55:27.114Z,GET,/rest/user/whoami?fields=email,200,application/json,
+238,2026-06-24T12:55:27.116Z,GET,/rest/user/whoami,200,application/json,
+259,2026-06-24T12:56:17.488Z,GET,/profile,200,text/html,
